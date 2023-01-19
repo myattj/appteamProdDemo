@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CE2C5DFC-0F17-46F5-87FE-14BBE6833294"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "450E0599-41FA-4EB5-A420-514845CC7801"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App Team Production Demo/HoroViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A8615B2-7E86-4D5E-A5D1-7CF36959BBAD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App Team Production Demo/HoroService/HoroAsyncAwait.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "requestHoro(sign:day:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0A8615B2-7E86-4D5E-A5D1-7CF36959BBAD - db5635dee0b148d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for App_Team_Production_Demo.HoroAsyncAwait.requestHoro(sign: Swift.String, day: Swift.String) async throws -&gt; App_Team_Production_Demo.HoroResponse"
+                  moduleName = "App Team Production Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josh/Developer/appteamsp23/appteamProdDemo/App%20Team%20Production%20Demo/App%20Team%20Production%20Demo/HoroService/HoroAsyncAwait.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "836">
+               </Location>
+               <Location
+                  uuid = "0A8615B2-7E86-4D5E-A5D1-7CF36959BBAD - af4f24d538c39ddd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for App_Team_Production_Demo.HoroAsyncAwait.requestHoro(sign: Swift.String, day: Swift.String) async throws -&gt; App_Team_Production_Demo.HoroResponse"
+                  moduleName = "App Team Production Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josh/Developer/appteamsp23/appteamProdDemo/App%20Team%20Production%20Demo/App%20Team%20Production%20Demo/HoroService/HoroAsyncAwait.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "0A8615B2-7E86-4D5E-A5D1-7CF36959BBAD - 16f50af1bc8a14d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for App_Team_Production_Demo.HoroAsyncAwait.requestHoro(sign: Swift.String, day: Swift.String) async throws -&gt; App_Team_Production_Demo.HoroResponse"
+                  moduleName = "App Team Production Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josh/Developer/appteamsp23/appteamProdDemo/App%20Team%20Production%20Demo/App%20Team%20Production%20Demo/HoroService/HoroAsyncAwait.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "0A8615B2-7E86-4D5E-A5D1-7CF36959BBAD - 4cc2f861eef7b6d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for App_Team_Production_Demo.HoroAsyncAwait.requestHoro(sign: Swift.String, day: Swift.String) async throws -&gt; App_Team_Production_Demo.HoroResponse"
+                  moduleName = "App Team Production Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josh/Developer/appteamsp23/appteamProdDemo/App%20Team%20Production%20Demo/App%20Team%20Production%20Demo/HoroService/HoroAsyncAwait.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7110D2EF-3F8B-442E-A459-F97605A99CF0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App Team Production Demo/HoroService/HoroAsyncAwait.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "requestHoro(sign:day:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
