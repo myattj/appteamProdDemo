@@ -7,23 +7,21 @@
 
 import Foundation
 
-
-public struct HoroUtils {
+public enum HoroUtils {
     static let emojiMap = [
-        "Aries":"♈️",
-        "Taurus":"♉️",
-        "Gemini":"♊️",
-        "Cancer":"♋️",
-        "Leo":"♌️",
-        "Virgo":"♍️",
-        "Libra":"♎️",
-        "Scorpio":"♐️",
-        "Sagittarius":"♐️",
-        "Capricorn":"♑️",
-        "Aquarius":"♒️",
-        "Pisces":"♓️"
+        "Aries": "♈️",
+        "Taurus": "♉️",
+        "Gemini": "♊️",
+        "Cancer": "♋️",
+        "Leo": "♌️",
+        "Virgo": "♍️",
+        "Libra": "♎️",
+        "Scorpio": "♐️",
+        "Sagittarius": "♐️",
+        "Capricorn": "♑️",
+        "Aquarius": "♒️",
+        "Pisces": "♓️"
     ]
     static let signs = ["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"]
     static let days = ["Today", "Yesterday", "Tomorrow"]
 }
-

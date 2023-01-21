@@ -10,13 +10,13 @@ import SwiftUI
 struct DailyView: View {
     @ObservedObject var vm: HoroViewModel
     var body: some View {
-        VStack{
+        VStack {
             Text("Results")
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .padding(.top)
                 .padding(.bottom, -10)
-            HStack{
+            HStack {
                 Text("Mood:")
                     .fontWeight(.bold)
                     .font(.title3)
@@ -30,7 +30,7 @@ struct DailyView: View {
                     .font(.title3)
             }
             .padding(.top)
-            HStack{
+            HStack {
                 Text("Lucky Number:")
                     .fontWeight(.bold)
                     .font(.title3)
@@ -54,11 +54,9 @@ struct DailyView: View {
                 .padding(.leading)
                 .padding(.trailing)
             Spacer()
-            
-            
         }
-        .padding(.leading, 15)
-        .padding(.trailing, 15)
+        .padding(.leading, 13)
+        .padding(.trailing, 13)
     }
 }
 

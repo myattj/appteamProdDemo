@@ -11,16 +11,17 @@ struct CollectionView: View {
     @State var sign: String = "Aries"
     @State var day: String = "Today"
     var body: some View {
-        VStack{
+        VStack {
             Text("\(day)'s Horoscope")
                 .font(.largeTitle)
                 .padding(.top)
                 .fontWeight(.bold)
             Text(HoroUtils.emojiMap[sign]!)
-                .padding(.bottom, 1)
-                .font(.system(size:55))
-            HStack{
-                VStack{
+                .padding(.bottom, 10)
+                .padding(.top, -10)
+                .font(.system(size: 55))
+            HStack {
+                VStack {
                     Text("Select Your Sign")
                         .font(.title3)
                         .padding(.bottom, -10)
@@ -30,7 +31,7 @@ struct CollectionView: View {
                         }
                     }
                 }.padding(.trailing, 30)
-                VStack{
+                VStack {
                     Text("Select Your Day")
                         .font(.title3)
                         .padding(.bottom, -10)

@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 public struct HoroResponse: Decodable {
     let date_range: String
     let current_date: String
@@ -18,5 +17,3 @@ public struct HoroResponse: Decodable {
     let lucky_number: String
     let lucky_time: String
 }
-
-
